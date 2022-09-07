@@ -17,8 +17,9 @@ races
   #bg {
   background-color: rgb(68, 68, 116);
   padding-top:5rem;
-  height: 100vh;
+  height: 100vh; 
   }
+  /* if content exceeds height use cover */
   
 
 </style>
