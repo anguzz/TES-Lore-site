@@ -26,10 +26,28 @@
       title: "Home",
     },
     {
-      id: "#content",
-      route: "/content",
-      name: "content",
-      title: "content",
+      id: "#Timeline",
+      route: "/Timeline",
+      name: "Timeline",
+      title: "Timeline",
+    },
+    {
+      id: "#Provinces",
+      route: "/Provinces",
+      name: "Provinces",
+      title: "Provinces",
+    },
+    {
+      id: "#Races",
+      route: "/Races",
+      name: "Races",
+      title: "Races",
+    },
+    {
+      id: "#Gods",
+      route: "/Gods",
+      name: "Gods",
+      title: "Gods",
     },
 
   ];
