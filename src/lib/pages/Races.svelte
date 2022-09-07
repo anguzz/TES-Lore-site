@@ -8,27 +8,8 @@ import Text from "$lib/components/Text.svelte";
 <Text>
 
 
+races
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
   </Text>
 </div>
 
