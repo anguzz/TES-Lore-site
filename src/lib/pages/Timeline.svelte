@@ -52,7 +52,7 @@
       <!--maybe add dropdown menu here-->
       The first era lasted 2920 years, the second era 896, the third era 433 years, and the fourth era is currently ongoing.
 <br><br>
-The first era was comprised of 
+ 
       The events in the Elder Scrolls online are in middle the 2nd era, during the Three banner war, 
       in which 3 alliances known as the Aldmeri Dominion, Ebonheart pact, and Dagerfall Covenant fought for control of the contentant. 
       <br><br>
