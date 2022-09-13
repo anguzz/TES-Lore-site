@@ -7,7 +7,7 @@
   <div id="bg">
   <Text>
   
-    provinces
+    <a href="">         <img src = 'map.png'   width="2000px"  alt=git/> </a>    
   
   
     </Text>
@@ -15,7 +15,7 @@
   
   <style>   
     #bg {
-    background-color: rgb(87, 150, 146);
+    background-color: #1b1b1b;
     padding-top:5rem;
     height: 100vh;
     }
