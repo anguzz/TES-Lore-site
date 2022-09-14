@@ -15,7 +15,7 @@
   
   <style>   
     #bg {
-    background-color: rgb(144, 94, 67);
+    background-color: #1b1b1b;
     padding-top:5rem;
     height: 100vh;
     }

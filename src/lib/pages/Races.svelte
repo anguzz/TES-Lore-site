@@ -15,7 +15,7 @@ races
 
 <style>   
   #bg {
-  background-color: rgb(68, 68, 116);
+  background-color: #1b1b1b;
   padding-top:5rem;
   height: 100vh; 
   }
