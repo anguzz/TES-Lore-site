@@ -2,8 +2,8 @@
   import Anchor from "$lib/components/Anchor.svelte";
   import IconButton from "$lib/components/IconButton.svelte";
   import Footer from "$lib/components/Footer.svelte";
-  let color = "text-blue-300";
-  let hover = "sm:hover:text-primary-500";
+  let color = "text-neutral-300";
+  let hover = "sm:hover:text-neutral-500";
   let colorClass = `${color} ${hover}`;
   let spacingClass = "mx-5";
   let sizeClass = "h-14 w-11";
@@ -35,7 +35,7 @@
 
   <footer id="theme" class='bottom-0 left-0 flex flex-col w-full gap-8 px-8 py-16 md:gap-12'>
     
-    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-blue-400 to-transparent'></div>
+    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-neutral-400 to-transparent'></div>
     <div class='flex flex-col items-center gap-8 md:justify-between md:flex-row'>
       <div class='flex flex-col gap-2'>
         <footer>
@@ -43,7 +43,7 @@
                 <h3>Angel Santoyo</h3>
                 <p>Feel free to check out my other projects or contact me below</p>
             </div>
-    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-gray-700 to-transparent'></div>
+    <div class='w-full h-px m-auto bg-gradient-to-r from-transparent via-neutral-700 to-transparent'></div>
     <div class='flex flex-col items-center gap-6 md:flex-row md:justify-between'>
       <div class=copyright>
         &#169; 2022
@@ -118,7 +118,7 @@
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300&display=swap");
     :root {
-    --gray-50: #f9fafb;
+    --gray-50: #F4F8FD;
     --gray-100: #f3f4f6;
     --gray-300: #d1d5db;
     --gray-400: #93a3af;
@@ -137,12 +137,12 @@
     .footer-content p{
       max-width: 500px;
       margin: 10px auto;
-      color: rgb(131, 176, 204);
+      color: #F4F8FD;
       
     } 
     #theme {
-    --primary: #1f2937;
-    --comp-primary: #f3f4f6;
+    --primary: #1b1b1b;
+    --comp-primary: #white;
     --white: white;
     --gray-200: #374151;
     --black: black;

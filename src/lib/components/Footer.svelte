@@ -3,7 +3,7 @@
   
     export let id: string;
     export let title: string = "";
-    export let backgroundClass: string = "bg-neutral-200 dark:bg-neutral-900";
+    export let backgroundClass: string = "bg-zinc-900 dark:bg-zinc-900";
     export let textClass: string = "text-neutral-800 dark:text-neutral-200";
   </script>
   
