@@ -11,8 +11,8 @@
 </script>
 
 <SEO
-  title="site name"
-  description="site desc"
+  title="Elder scrolls lore"
+  description="Much lore! very quick"
   canonical="link"
 />
 
