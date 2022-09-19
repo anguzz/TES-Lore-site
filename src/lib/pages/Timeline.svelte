@@ -50,7 +50,8 @@
       </Timeline>
     
       <!--maybe add dropdown menu here-->
-      The first era lasted 2920 years, the second era 896, the third era 433 years, and the fourth era is currently ongoing.
+      <div id="info">The first era lasted 2920 years, the second era 896, the third era 433 years, and the fourth era is currently ongoing. </div>
+      
 <br><br>
  
       
@@ -77,7 +78,11 @@
 		letter-spacing: 1.5px;
 		margin: 0;
 		color: rgb(72, 134, 126);
-	}
+	} 
+  .info
+  {
+    
+  }
 
     
     </style>

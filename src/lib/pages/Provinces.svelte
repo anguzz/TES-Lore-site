@@ -19,6 +19,9 @@
     padding-top:5rem;
     height: 100vh;
     }
-    
+    .info
+    {
+      
+    }
   
   </style>
