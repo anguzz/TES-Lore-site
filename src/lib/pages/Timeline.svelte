@@ -11,7 +11,7 @@
 		TimelineConnector,
 		TimelineContent,
 		TimelineOppositeContent
-	} from 'svelte-vertical-timeline';
+	} from '$lib/components/svelte-vertical-timeline';
 
 	const options = [
 		{ title: 'Elder Scrolls online', time: '2E 600' },
