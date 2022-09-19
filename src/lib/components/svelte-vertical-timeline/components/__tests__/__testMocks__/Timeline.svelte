@@ -7,7 +7,10 @@
 	import TimelineContent from '../../TimelineContent.svelte';
 	import TimelineOppositeContent from '../../TimelineOppositeContent.svelte';
 
-	export let options;
+	export /**
+   * @type {{ position: any; oppositeContent: any; title: any; description: any; }}
+   */
+	 let options;
 </script>
 
 <Timeline position={options.position}>

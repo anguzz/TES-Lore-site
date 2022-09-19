@@ -1,6 +1,9 @@
 <script >import { setContext } from 'svelte';
 export let position = 'right';
-export let style = null;
+export /**
+   * @type {null}
+   */
+ let style = null;
 setContext('TimelineConfig', { rootPosition: position });
 </script>
 

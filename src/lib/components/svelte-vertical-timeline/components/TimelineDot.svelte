@@ -7,12 +7,12 @@
 
 <style>
 	.timeline-dot {
-		background-color: #121212;
+		background-color: #0083fd;
 		border: solid 2px #121212;
 		display: flex;
 		align-self: baseline;
 		padding: 4px;
 		border-radius: 50%;
-		margin: 11.5px 0;
+		margin: 10px 0;
 	}
 </style>

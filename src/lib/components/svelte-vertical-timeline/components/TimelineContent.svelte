@@ -1,5 +1,8 @@
 <script >import { getContext } from 'svelte';
-export let style = null;
+export /**
+   * @type {null}
+   */
+ let style = null;
 const config = getContext('TimelineConfig');
 const parentPosition = getContext('ParentPosition');
 const itemPosition = parentPosition ? parentPosition : config.rootPosition;

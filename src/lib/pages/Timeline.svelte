@@ -39,7 +39,7 @@
               <p>{option.time}</p>
             </TimelineOppositeContent>
             <TimelineSeparator>
-              <TimelineDot style={'background-color: #7CD5E2;'}/>
+              <TimelineDot/>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
@@ -77,7 +77,7 @@
 	p {
 		letter-spacing: 1.5px;
 		margin: 0;
-		color: rgb(72, 134, 126);
+		color: #76bcfd;
 	} 
   .info
   {

@@ -1,4 +1,6 @@
-<script >export let style = null;
+<script >
+// @ts-nocheck
+export let style = null;
 </script>
 
 <div class="timeline-separator" {style}>
