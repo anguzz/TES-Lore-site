@@ -9,7 +9,7 @@
 <style>
 	.timeline-connector {
 		width: 3px;
-		background-color: rgba(35, 35, 235, 0.914);
+		background-color: rgba(81, 115, 237, 0.914);
 		flex-grow: 1;
 	
 	}
