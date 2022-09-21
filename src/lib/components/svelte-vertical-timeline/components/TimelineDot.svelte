@@ -7,7 +7,7 @@
 
 <style>
 	.timeline-dot {
-		background-color: #0083fd;
+		background-color: #787A79;
 		border: solid 2px #121212;
 		display: flex;
 		align-self: baseline;
