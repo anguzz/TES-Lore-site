@@ -14,13 +14,13 @@
 	} from '$lib/components/svelte-vertical-timeline';
 
 	const options = [
-		{ title: 'Elder Scrolls online', time: '2E 600' },
-    { title: 'Redguard', time: '2E864' },
-    { title: 'Arena',   time: '3E 389' },
-    { title: 'Dagerfall', time: '3E 405' },
-    { title: 'Morrowind', time: '3E 427' },
-    { title: 'Oblivion', time: '3E 433' },
-    { title: 'Skyrim', time: '4E 201' },
+		{ title: 'Elder Scrolls online (2014)', time: '2E 600' },
+    { title: 'Redguard (1998)', time: '2E864' },
+    { title: 'Arena (1994)',   time: '3E 389' },
+    { title: 'Dagerfall (1996)', time: '3E 405' },
+    { title: 'Morrowind (2002)', time: '3E 427' },
+    { title: 'Oblivion (2006)', time: '3E 433' },
+    { title: 'Skyrim (2011)', time: '4E 201' },
 
 	
 	];
