@@ -30,8 +30,6 @@ import { races } from "$lib/utils/races";
 <Anchor id="Races" />
 <div id="bg">
 <Text>
-
-
   <div class="row">
     {#each races as {title,img, descr,}, i}
       <div class="flip-box">
@@ -40,10 +38,7 @@ import { races } from "$lib/utils/races";
       <div class="img-container">
         <img src=/{img}  alt="races image">
       </div>
-  
-    
           </div>
-
           <div class="flip-box-back container">
             <p>{title}</p>
            
@@ -55,8 +50,7 @@ import { races } from "$lib/utils/races";
         <footer on:click={toggleBackFront} data-card-id={i}>{title}</footer>
       </div>
     {/each}
-  </div>	
-
+  </div>
   </Text>
 </div>
 
@@ -64,7 +58,7 @@ import { races } from "$lib/utils/races";
   #bg {
   background-color: #1b1b1b;
   padding-top:5rem;
-  height: 100vh; 
+  height: fit-content; 
   }
   /* if content exceeds height use cover */
   
@@ -82,8 +76,6 @@ import { races } from "$lib/utils/races";
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		margin-bottom: 10%;
-		
 	}
 	/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 	
