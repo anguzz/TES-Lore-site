@@ -66,6 +66,7 @@ import { races } from "$lib/utils/races";
 		margin: 0 0rem 1rem;
 		width: 12.5rem;
 		height: 12.5rem;
+		overflow:hidden;
 		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
 		border-radius: 10px;
 	}	
