@@ -64,11 +64,13 @@ import { races } from "$lib/utils/races";
   
   .img-container{
 		margin: 0 0rem 1rem;
-		width: 12.5rem;
-		height: 12.5rem;
+		width: 20rem;
+		height: 20rem;
+		content:center;
 		overflow:hidden;
-		background: linear-gradient(var(--deg),var(--gradient-1), var(--gradient-2));
+		background: #212224;
 		border-radius: 10px;
+		
 	}	
 	
  
@@ -82,8 +84,8 @@ import { races } from "$lib/utils/races";
 	
 	.flip-box {
 		background-color: transparent;
-		width: 12.5rem;
-		height: 18.5rem;
+		width: 20rem;
+		height: 20rem;
 		margin-left:.3rem;
 		margin-right:.3rem;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -128,10 +130,11 @@ import { races } from "$lib/utils/races";
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		background-color: #1F2937;
+		background-color: #212224;
+		border-color: #6B7280;
 		color: #7EACC0;
-		width: 12.3rem;
-		height: 18.5rem;
+		width: 20rem;
+		height: 20rem;
 		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
 		border-radius: 10px;
