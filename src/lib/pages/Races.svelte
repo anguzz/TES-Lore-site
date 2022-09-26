@@ -65,7 +65,7 @@ import { races } from "$lib/utils/races";
   .img-container{
 		margin: 0 0rem 1rem;
 		width: 20rem;
-		height: 20rem;
+		height: 24rem;
 		content:center;
 		overflow:hidden;
 		background: #212224;
@@ -85,7 +85,7 @@ import { races } from "$lib/utils/races";
 	.flip-box {
 		background-color: transparent;
 		width: 20rem;
-		height: 20rem;
+		height: 24rem;
 		margin-left:.3rem;
 		margin-right:.3rem;
 		perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -134,7 +134,7 @@ import { races } from "$lib/utils/races";
 		border-color: #6B7280;
 		color: #7EACC0;
 		width: 20rem;
-		height: 20rem;
+		height: 24rem;
 		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
 		border-radius: 10px;
