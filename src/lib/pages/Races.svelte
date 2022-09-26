@@ -144,7 +144,7 @@ import { races } from "$lib/utils/races";
 	/*----------text box for colors----------------*/
 
 	footer {
-		width: 200px;
+		width: 20rem;
 		font-weight: 800;
 		padding: 5px 2px;
 		text-align: center;
