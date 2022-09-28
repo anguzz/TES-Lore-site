@@ -148,10 +148,10 @@ import { races } from "$lib/utils/races";
 		font-weight: 800;
 		padding: 5px 2px;
 		text-align: center;
-		border: 1px solid #7EACC0;
-		border-top: 1px solid black;
-		background-color: #1F2937;
-		color: #7EACC0;
+		border: 1px solid rgb(80, 80, 80);
+		border-top: 1px solid rgb(63, 61, 61);
+		background-color: #474D50;
+		color: #474D50;
 		cursor: pointer;
 		transition: .3s all;
 		border-radius: 10px;
@@ -159,8 +159,8 @@ import { races } from "$lib/utils/races";
 	
 	footer:hover {
 		color: #FFFFFF;
-		background-color: #1E40AF;
-		border: 1px solid rgb(253, 253, 253);
+		background-color: #474D50;
+		border: 1px solid rgb(221, 10, 10);
 	}
 	
 	footer:active {
