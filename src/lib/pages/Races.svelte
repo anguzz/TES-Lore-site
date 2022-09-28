@@ -160,7 +160,7 @@ import { races } from "$lib/utils/races";
 	footer:hover {
 		color: #FFFFFF;
 		background-color: #474D50;
-		border: 1px solid rgb(221, 10, 10);
+		border: 1px solid rgb(10, 144, 221);
 	}
 	
 	footer:active {
