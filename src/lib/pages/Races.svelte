@@ -6,7 +6,7 @@ import { races } from "$lib/utils/races";
 
 
 	// @ts-ignore
-	let selected;
+	let selected: number | null;
 // @ts-ignore
 		$:console.log(selected)
 	
@@ -30,29 +30,29 @@ import { races } from "$lib/utils/races";
 <Anchor id="Races" />
 <div id="bg">
 <Text>
-  <div class="row">
-    {#each races as {title,img, descr,}, i}
-      <div class="flip-box">
-        <div class="flip-box-inner" class:show-back={selected === i}>
-          <div class="flip-box-front card">
-      <div class="img-container">
-        <img src=/{img}  alt="races image">
-      </div>
-          </div>
-          <div class="flip-box-back container">
-            <p>{title}</p>
-           
-       <br>
-            
-            <p>{descr}</p>
-          </div>
-        </div>
-        <footer on:click={toggleBackFront} data-card-id={i}>{title}</footer>
-      </div>
-    {/each}
-  </div>
-  </Text>
-</div>
+	<div class="row"> {#each races as {title,img, descr,}, i}
+      
+		<div class="flip-box" >
+			<div class="flip-box-inner" class:show-back={selected === i} >
+				<div class="flip-box-front card" >
+					<div class="img-container">
+						<img src=/{img}  alt="races image" on:click={toggleBackFront} data-card-id={i}>{title}>
+						</div>
+					</div>
+					
+					
+					<div class="flip-box-back container" alt="races image" on:click={toggleBackFront} data-card-id={i}>
+						<p>{title}</p>
+						<br>
+							<p>{descr}</p>
+						</div>
+					</div>
+				</div>
+		{/each}
+	  
+			</div>
+		</Text>
+	</div>
 
 <style>   
   #bg {
