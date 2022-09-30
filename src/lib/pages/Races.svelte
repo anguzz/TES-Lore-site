@@ -36,7 +36,7 @@ import { races } from "$lib/utils/races";
 			<div class="flip-box-inner" class:show-back={selected === i} >
 				<div class="flip-box-front card" >
 					<div class="img-container">
-						<img src=/{img}  alt="races image" on:click={toggleBackFront} data-card-id={i}>{title}>
+						<img src=/{img}  alt="races image" on:click={toggleBackFront} data-card-id={i}>
 						</div>
 					</div>
 					
