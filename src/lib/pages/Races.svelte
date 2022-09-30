@@ -42,9 +42,9 @@ import { races } from "$lib/utils/races";
 					
 					
 					<div class="flip-box-back container" alt="races image" on:click={toggleBackFront} data-card-id={i}>
-						<p>{title}</p>
+						<div class="title" > {title} </div>
 						<br>
-							<p>{descr}</p>
+						<div class="title" > {descr} </div>
 						</div>
 					</div>
 				</div>
@@ -115,7 +115,7 @@ import { races } from "$lib/utils/races";
 		height: 100%;
 		-webkit-backface-visibility: hidden; /* Safari */
 		backface-visibility: hidden;
-		border-radius: 10px;
+
 	}
 
 	/* Style the front side */

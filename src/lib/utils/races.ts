@@ -2,35 +2,35 @@ export const races = [
     {
         id: 0,
         title: "Nords",
-        img: "races/nord.jpeg",
+        img: "races/nord.jpg",
         descr:"From skyrim",
      
     },
     {
         id: 1,
         title: "Imperials",
-        img: "races/imperial.jpeg",
+        img: "races/imperial.jpg",
         descr:"From Cyrodiil",
      
     },
     {
         id: 2,
         title: "Redguard",
-        img: "races/redguard.jpeg",
+        img: "races/redguard.jpg",
         descr:"From Hammerfell",
      
     },
     {
         id: 3,
         title: "Bretons",
-        img: "races/breton.jpeg",
+        img: "races/breton.jpg",
         descr:"From High Rock",
      
     },
     {
         id: 4,
         title: "High Elves",
-        img: "races/highElves.png",
+        img: "races/highElves.jpg",
         descr:"From The summerset Isles",
     },
     {
@@ -61,7 +61,7 @@ export const races = [
     {
         id: 9,
         title: "Khajit",
-        img: "races/khajit.png",
+        img: "races/khajit.jpg",
         descr:"From Elsweyr",
     },
   
