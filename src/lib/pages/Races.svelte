@@ -143,31 +143,6 @@ import { races } from "$lib/utils/races";
 
 	/*----------text box for colors----------------*/
 
-	footer {
-		width: 20rem;
-		font-weight: 800;
-		padding: 5px 2px;
-		text-align: center;
-		border: 1px solid rgb(80, 80, 80);
-		border-top: 1px solid rgb(63, 61, 61);
-		background-color: #474D50;
-		color: #ffffff;
-		cursor: pointer;
-		transition: .3s all;
-		border-radius: 10px;
-	}
-	
-	footer:hover {
-		color: #299dc0;
-		background-color: #474D50;
-		border: 1px solid rgb(10, 144, 221);
-	}
-	
-	footer:active {
-		color: #000;
-		background-color: #888
-	}
-
 		 
 
 
