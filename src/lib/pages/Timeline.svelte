@@ -50,7 +50,7 @@
       </Timeline>
     
 
-      <div id="info">The first era lasted 2920 years, the second era 896, the third era 433 years, and the fourth era is currently ongoing. While some games are newer, they take place 
+      <div class="info">The first era lasted 2920 years, the second era 896, the third era 433 years, and the fourth era is currently ongoing. While some games are newer, they take place 
         further back in the timeline, such as Elder scrolls online taking place around 1000 years before Skyrim.
       </div>
       
@@ -83,7 +83,8 @@
 	} 
   .info
   {
-    
+    font-size: 2.0rem;
+       font-weight: 350;
   }
 
     

@@ -8,7 +8,7 @@
   <Text>
   
     <a href="">         <img src = 'map.png'   width="2000px"  alt=git/> </a>    
-    <div id="info">There are nine provinces on the contintent of Tamriel, each inhabited by it's own race of man, elf or beastfolk. </div>
+    <div class="info">There are nine provinces on the contintent of Tamriel, each inhabited by it's own race of man, elf or beastfolk. </div>
   
     </Text>
   </div>
@@ -21,7 +21,8 @@
     }
     .info
     {
-      
+      font-size: 2.0rem;
+       font-weight: 350;
     }
   
   </style>
