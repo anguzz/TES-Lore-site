@@ -30,7 +30,7 @@ import { races } from "$lib/utils/races";
 <Anchor id="Races" />
 <div id="bg">
 <Text>
-	<div class="row"> {#each races as {title,img, descr,}, i}
+	<div class="row"> {#each races as {title,img, province,}, i}
       
 		<div class="flip-box" >
 			<div class="flip-box-inner" class:show-back={selected === i} >
@@ -44,7 +44,7 @@ import { races } from "$lib/utils/races";
 					<div class="flip-box-back container" alt="races image" on:click={toggleBackFront} data-card-id={i}>
 						<div class="title" > {title} </div>
 						<br>
-						<div class="title" > {descr} </div>
+						<div class="title" > {province} </div>
 						</div>
 					</div>
 				</div>
