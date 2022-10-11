@@ -12,7 +12,8 @@
   
     </Text>
   </div>
-  
+  <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+
   <style>   
     #bg {
     background-color: #1b1b1b;
@@ -21,6 +22,8 @@
     }
     .info
     {
+      font-family: "MedievalSharp";
+
       font-size: 2.0rem;
        font-weight: 350;
     }
