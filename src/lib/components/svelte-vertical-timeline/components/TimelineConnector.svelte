@@ -11,6 +11,7 @@
 		width: 3px;
 		background-color: #7A7879;
 		flex-grow: 1;
-	
+		font-family: "MedievalSharp";
+
 	}
 </style>

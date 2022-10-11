@@ -14,5 +14,7 @@
 		padding: 4px;
 		border-radius: 50%;
 		margin: 10px 0;
+		font-family: "MedievalSharp";
+
 	}
 </style>

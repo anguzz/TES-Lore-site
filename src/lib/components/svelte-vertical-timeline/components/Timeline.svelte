@@ -17,5 +17,6 @@ setContext('TimelineConfig', { rootPosition: position });
 		flex-direction: column;
 		padding: 6px 16px;
 		flex-grow: 1;
+		
 	}
 </style>

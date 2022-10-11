@@ -17,6 +17,8 @@ const itemPosition = parentPosition ? parentPosition : config.rootPosition;
 		margin: 0;
 		flex: 1;
 		margin: 6px 16px;
+		font-family: "MedievalSharp";
+
 	}
 
 	.left {

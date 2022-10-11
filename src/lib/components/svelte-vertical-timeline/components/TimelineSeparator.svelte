@@ -13,5 +13,7 @@ export let style = null;
 		flex-direction: column;
 		flex: 0;
 		align-items: center;
+		font-family: "MedievalSharp";
+
 	}
 </style>
