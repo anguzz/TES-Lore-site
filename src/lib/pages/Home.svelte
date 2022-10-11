@@ -18,13 +18,17 @@
 
 </div>
 
-<style>
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+<style>  
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
     background-color: #1b1b1b;
     
   }
-
+  
+.text-5xl{
+  font-family: "MedievalSharp";
+}
   .text-2{
   font-size: 1.8rem;  
   margin: 0rem;
@@ -32,6 +36,8 @@
   font-weight: 200;
   line-height: 3rem;
   color:rgb(215, 219, 223);
+  font-family: "MedievalSharp";
+
  }    
  
   .subtitle {
@@ -40,6 +46,7 @@
     font-weight: 200;
     color:rgb(215, 219, 223);
     padding-left: 3vw;
-    
+    font-family: "MedievalSharp";
+
   }
 </style>
