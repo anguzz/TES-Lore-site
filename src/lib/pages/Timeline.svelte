@@ -86,7 +86,7 @@
     font-size: 2.0rem;
        font-weight: 350;
        font-family: "MedievalSharp";
-
+    padding:20px;
   }
 
     
