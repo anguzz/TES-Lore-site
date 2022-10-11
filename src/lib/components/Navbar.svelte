@@ -99,6 +99,8 @@
 
 <svelte:window bind:innerHeight />
 <!-- This example requires Tailwind CSS v2.0+ -->
+<div class="navbar">
+
 <nav class="fixed top-0 w-full {shadow} {colors.buttonText} {colors.nav} z-50">
   <div class="px-2 max-w-7xl sm:px-6 lg:px-8">
     <div class="relative flex items-center justify-between h-16">
@@ -209,3 +211,11 @@
     </div>
   {/if}
 </nav>
+</div>
+
+<style>
+  .navbar{
+    font-family: "MedievalSharp";
+  }
+  
+</style>

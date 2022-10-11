@@ -18,14 +18,13 @@
 
 </div>
 
-<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
 <style>  
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
     background-color: #1b1b1b;
     
   }
-  
+
 .text-5xl{
   font-family: "MedievalSharp";
 }

@@ -151,6 +151,8 @@
     background-color: var(--primary);
     color: var(--white);
     box-shadow: 1px -5px var(--blur) rgba(0, 0, 0, 0.3);
+    font-family: "MedievalSharp";
+
     }
     * {
     transition: all 0.3s ease;

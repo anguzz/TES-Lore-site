@@ -9,7 +9,7 @@
 
   import Footer from "$lib/pages/Footer.svelte";
 </script>
-
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
 <SEO
   title="Elder scrolls lore"
   description="Much lore! very quick"

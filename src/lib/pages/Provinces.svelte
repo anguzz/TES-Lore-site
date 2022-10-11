@@ -12,7 +12,7 @@
   
     </Text>
   </div>
-  <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+
 
   <style>   
     #bg {
@@ -20,7 +20,7 @@
     padding-top:5rem;
     height: 100vh;
     }
-    
+
     .info
     {
       font-family: "MedievalSharp";

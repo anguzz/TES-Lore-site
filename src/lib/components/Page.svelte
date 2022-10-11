@@ -19,5 +19,6 @@
   .page {
     min-height: calc(100vh - 4rem);
     width: 100%;
+    
   }
 </style>
