@@ -59,6 +59,7 @@ import { races } from "$lib/utils/races";
   background-color: #1b1b1b;
   padding-top:5rem;
   height: fit-content; 
+  
   }
   /* if content exceeds height use cover */
   
@@ -72,7 +73,9 @@ import { races } from "$lib/utils/races";
 		border-radius: 10px;
 		
 	}	
-	
+	.img-container:hover{
+  box-shadow: 5px 10px 15px #76BBFC;
+	}
  
 	
 	.row {
@@ -138,6 +141,10 @@ import { races } from "$lib/utils/races";
 		margin: 0rem .4rem;
 		transform: rotateY(180deg) translateX(6px);
 		border-radius: 10px;
+		
+	}
+	.flip-box-back:hover{
+		box-shadow: 5px 10px 15px #76BBFC;
 	}
 
 
