@@ -23,5 +23,3 @@
 <Provinces  />
 <Races  />
 <Gods  />
-
-<Footer  />
