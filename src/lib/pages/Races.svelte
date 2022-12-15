@@ -29,8 +29,10 @@ import { races } from "$lib/utils/races";
   
 <Anchor id="Races" />
 <div id="bg">
-<Text>
-	<div class="row"> {#each races as {title,img, province,}, i}
+	<div class="text-center">
+		<h1 class="text-5xl m-6 font-light">  Races of Tamriel  </h1>
+	  </div>
+	<div class="row"> {#each races as {title,img,text, province,}, i}
       
 		<div class="flip-box" >
 			<div class="flip-box-inner" class:show-back={selected === i} >
@@ -40,10 +42,11 @@ import { races } from "$lib/utils/races";
 						</div>
 					</div>
 					
-					
 					<div class="flip-box-back container" alt="races image" on:click={toggleBackFront} data-card-id={i}>
 						<div class="title" > {title} </div>
-						<br>
+				
+						<div class="text" > {text} </div>
+						
 						<div class="title" > {province} </div>
 						</div>
 					</div>
@@ -51,10 +54,11 @@ import { races } from "$lib/utils/races";
 		{/each}
 	  
 			</div>
-		</Text>
+
 	</div>
 
 <style>   
+
   #bg {
   background-color: #1b1b1b;
   padding-top:5rem;
@@ -147,7 +151,12 @@ import { races } from "$lib/utils/races";
 		box-shadow: 5px 10px 15px #76BBFC;
 	}
 
-
+	.text-5xl{
+  font-family: "MedievalSharp";
+}
+.text{
+	padding:10px;
+}
 	/*----------text box for colors----------------*/
 
 		 

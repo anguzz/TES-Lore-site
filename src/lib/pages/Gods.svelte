@@ -8,10 +8,7 @@
     
   <Anchor id="Gods" />
   <div id="bg">
-
-  
     <ul>
-	
       { #each aedras as aedra }
         <li>
           <CollapsibleCard>
