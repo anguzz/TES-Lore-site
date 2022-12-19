@@ -6,9 +6,21 @@
 
   </script>
     
-  <Anchor id="Gods" />
+  <Anchor id="Gods" />  
   <div id="bg">
+    <Text>
+      <div class ="text-5xl m-6 font-light" id="gods"> Gods of Tamriel</div>
+
+    <div class="info">The Aedra and Daedra are descendents of two primal forces named Anu and Padomay, whose battle ended up with the creation of the universe. 
+       Gods with Anuic basis include the Aedra, and Gods with pandomaic basis include the Daedra.
+       Generally Aedra(The Divines) and their actions are seen generally as good. The Daedra are seen as forces of change, and cause chaos and evil to 
+      bring that change.
+      </div>
+    </Text><br><br><br>
+
+
     <ul>
+        <div class="dropdown-title">The Divines </div>
       { #each aedras as aedra }
         <li>
           <CollapsibleCard>
@@ -35,7 +47,7 @@
 
     <br><br><br>
     <ul>
-	
+        <div class="dropdown-title">The Daedric princes </div>
       { #each daedras as daedra }
         <li>
           <CollapsibleCard>
@@ -64,6 +76,7 @@
     background-color: #1b1b1b;
     padding-top:5rem;
     height: fit-content;
+    font-family: "MedievalSharp";
     }
     
   
@@ -84,7 +97,7 @@
 	li {
 		margin-bottom: 0em;
     border-radius: 10px; 
-    border-bottom: 1px solid #6B91A4;
+    border-bottom: 1px solid #375068;
 
 	}
 	
@@ -96,7 +109,7 @@
     
 	}
   .header:hover{
-    background-color: #2b3d57;
+    background-color: #375068;
   }
  
   
@@ -106,6 +119,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+    font-weight: 300;
 
 	}
 	
@@ -132,5 +146,23 @@
   }
  
 
+  .info
+    {
+      padding:20px;
+      font-size: 1.8rem;
+      font-weight: 350;
+      background-color: #375068;
+      border-radius: 10px;
+    }
+    .dropdown-title
+    {
+      font-family: "MedievalSharp";
+      padding:15px;
+      font-size: 2.0rem;
+      font-weight: 700;
+    }
 
+    .text-5xl{
+  font-family: "MedievalSharp";
+}
   </style>

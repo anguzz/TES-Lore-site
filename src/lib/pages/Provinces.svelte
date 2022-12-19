@@ -25,8 +25,10 @@
     {
       font-family: "MedievalSharp";
       padding:20px;
-      font-size: 2.0rem;
+      font-size: 1.8rem;
       font-weight: 350;
+      background-color: #375068;
+      border-radius: 10px;
     }
   
   </style>

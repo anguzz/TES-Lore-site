@@ -27,6 +27,9 @@
 
 .text-5xl{
   font-family: "MedievalSharp";
+  background-color: #375068;
+  padding:20px;
+  border-radius: 10px;
 }
   .text-2{
   font-size: 1.8rem;  
