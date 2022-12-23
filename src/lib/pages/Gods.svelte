@@ -2,7 +2,6 @@
   import Anchor from "$lib/components/Anchor.svelte";
   import Text from "$lib/components/Text.svelte";
   import CollapsibleCard from 'svelte-collapsible-card'
-  import {aedras,daedras} from '../utils/gods';
 
   </script>
     
