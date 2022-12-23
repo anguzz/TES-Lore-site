@@ -13,62 +13,10 @@
 
     <div class="info">The Aedra and Daedra are descendents of two primal forces named Anu and Padomay, whose battle ended up with the creation of the universe. 
        Gods with Anuic basis include the Aedra, and Gods with pandomaic basis include the Daedra.
-       Generally Aedra(The Divines) and their actions are seen generally as good. The Daedra are seen as forces of change, and cause chaos and evil to 
-      bring that change.
+       Generally Aedra and their actions are seen generally as good. The Daedra are seen as forces of change, and cause chaos and evil to 
+      bring that change. There are 9 Aedra known as the divines, and 13 daedric princes.
       </div>
     </Text><br><br><br>
-
-
-    <ul>
-        <div class="dropdown-title">The Divines </div>
-      { #each aedras as aedra }
-        <li>
-          <CollapsibleCard>
-            <div slot='header' class='header'>
-              <div class='names'>
-                <h2>{ aedra.heading }</h2>
-              </div>
-            </div>
-            <div slot='body' class='body'>
-              { aedra.content } <br><br>
-
-              <div class = "image "> <img src={aedra.image} alt="image here" width=900 > </div>   
-                <br>  <br>
-              </div>
-            
-        
-          </CollapsibleCard>
-        </li>
-      { /each }
-    
-    </ul>
-
-
-
-    <br><br><br>
-    <ul>
-        <div class="dropdown-title">The Daedric princes </div>
-      { #each daedras as daedra }
-        <li>
-          <CollapsibleCard>
-            <div slot='header' class='header'>
-              <div class='names'>
-                <h2>{ daedra.heading }</h2>
-              </div>
-            </div>
-            <div slot='body' class='body'>
-              { daedra.content } <br><br>
-
-              <div class = "image "> <img src={daedra.image} alt="image here" width=900 > </div>   
-                <br>  <br>
-              </div>
-            
-        
-          </CollapsibleCard>
-        </li>
-      { /each }
-    
-    </ul>
   </div>
   
   <style>   
